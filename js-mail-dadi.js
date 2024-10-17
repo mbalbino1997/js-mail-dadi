@@ -21,3 +21,7 @@ if (player>computer) {
     text2 = "Hai perso"
 }
 console.log(`Il tuo punteggio: ${player}\nIl punteggio del computer: ${computer}\nRISULTATO: ${text2}`);
+//generatore random
+const list = ["Luigi", "Marco", "Sara", "Giovanni", "Luca", "Riccardo", "Davide", "Nicola"];
+const selected = list[Math.floor(Math.random()*8)];
+console.log(selected);
